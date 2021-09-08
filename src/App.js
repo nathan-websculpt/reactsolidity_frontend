@@ -1,4 +1,3 @@
-//import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
@@ -8,9 +7,6 @@ import CoinFlip from './components/CoinFlip';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
-  //<img src={logo} className="App-logo" alt="logo" />
-
-  
   return (
     <Router>
       <div className='App'>

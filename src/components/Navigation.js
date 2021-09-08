@@ -4,7 +4,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 const Navigation = () => (
 <Navbar bg="primary" variant="dark">
     <Container>
-    <Navbar.Brand href="#home">Testing</Navbar.Brand>
+    <Navbar.Brand href="#home">React + Solidity Examples</Navbar.Brand>
     <Nav className="me-auto">
       <Link to='/' className="nav-link">Home</Link>
       <Link to='/about' className="nav-link">About</Link>
