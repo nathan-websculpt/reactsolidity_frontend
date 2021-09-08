@@ -9,9 +9,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <div>
         <Navigation />
-        <div className='container'>
           <Switch>
             <Route exact path='/'>
               <Home />
@@ -26,7 +25,6 @@ function App() {
               <CoinFlip />
             </Route>
           </Switch>
-        </div>
       </div>
     </Router>
   );

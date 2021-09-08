@@ -1,8 +1,9 @@
+import { Container } from 'react-bootstrap';
 
 const BuildNotes = () => {
     return (
-        <div>
-            <h1 className='build-note-title'>Build Notes</h1>
+        <Container>
+            <h1 className='build-note-title mt-5'>Build Notes</h1>
             <hr />
             <h4 className='build-note-section-title'>Round 1</h4>
             <ul>
@@ -81,7 +82,7 @@ const BuildNotes = () => {
                     </p>
                 </li>
             </ul>
-        </div>
+        </Container>
     )
 }
 
