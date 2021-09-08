@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import BuildNotes from './components/BuildNotes';
 import CoinFlip from './components/CoinFlip';
+import RPS from './components/RPS';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
             </Route>
             <Route exact path='/coin-flip'>
               <CoinFlip />
+            </Route>
+            <Route exact path='/rock-paper-scissors'>
+              <RPS />
             </Route>
           </Switch>
       </div>

@@ -12,6 +12,7 @@ const Navigation = () => (
                 <Link to='/about' className='nav-link'>About</Link>
                 <Link to='/build-notes' className='nav-link'>Build Notes</Link>
                 <Link to='/coin-flip' className='nav-link'>Coin Flip</Link>
+                <Link to='/rock-paper-scissors' className='nav-link'>Rock, Paper, Scissors</Link>
             </Nav>
         </Navbar.Collapse>
     </Container>
