@@ -7,7 +7,7 @@ const Home = () => {
             <Row>
                 <Col className='text-center'>
                     <h1>
-                        Home
+                        HomeTest
                     </h1>
                 </Col>
             </Row> 
