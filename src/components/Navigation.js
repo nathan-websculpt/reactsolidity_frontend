@@ -13,6 +13,7 @@ const Navigation = () => (
                 <Link to='/build-notes' className='nav-link'>Build Notes</Link>
                 <Link to='/coin-flip' className='nav-link'>Coin Flip</Link>
                 <Link to='/rock-paper-scissors' className='nav-link'>Rock, Paper, Scissors</Link>
+                <Link to='/rps-ethereum-simple' className='nav-link'>ETH RPS (simple)</Link>
             </Nav>
         </Navbar.Collapse>
     </Container>
