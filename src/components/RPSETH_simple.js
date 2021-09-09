@@ -33,6 +33,13 @@ export default function RPSETH_simple() {
             <Container>
                 <Row className='mt-5'>
                     <Col className='text-center'>
+                        <h1>This is for test and development</h1>
+                        <h3>not for real ETH exchange/transaction</h3>
+                        <h4>Test Wallets Only</h4>
+                    </Col>    
+                </Row> 
+                <Row className='mt-5'>
+                    <Col className='text-center'>
                         {active ? <span>Connected Account: <b>{account}</b></span> : <span>Not Connected</span>} 
                     </Col>    
                 </Row>   
