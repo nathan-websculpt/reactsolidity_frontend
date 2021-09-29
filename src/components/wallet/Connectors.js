@@ -2,8 +2,9 @@
 
 import { InjectedConnector } from "@web3-react/injected-connector";
 
+//9_28_2021: added '1337' for ganache dev
 export const Injected = new InjectedConnector({ //InjectedConnector for MetaMask (there are other connectors for other wallets)
-    supportedChainIds: [1, 3, 4, 5, 42],
+    supportedChainIds: [1, 3, 4, 5, 42, 1337], 
 })
 
 //a core idea of Web3 (and Dapps) is the 'Connector'

@@ -3,8 +3,9 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
 import BuildNotes from './components/BuildNotes';
-import CoinFlip from './components/CoinFlip';
+//import CoinFlip from './components/CoinFlip';
 import RPS from './components/RPS';
+import MetaMaskExample from './components/MetaMaskExample';
 import RPSETH_simple from './components/RPSETH_simple';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Web3ReactProvider } from '@web3-react/core';
@@ -33,15 +34,18 @@ function App() {
               <Route exact path='/build-notes'>
                 <BuildNotes />
               </Route>
-              <Route exact path='/coin-flip'>
+              {/* <Route exact path='/coin-flip'>
                 <CoinFlip />
-              </Route>
+              </Route> */}
               <Route exact path='/rock-paper-scissors'>
                 <RPS />
               </Route>
-              <Route exact path='/rps-ethereum-simple'>
-                <RPSETH_simple />
+              <Route exact path='/metamask-example'>
+                <MetaMaskExample />
               </Route>
+              {/* <Route exact path='/rps-ethereum-simple'>
+                <RPSETH_simple />
+              </Route> */}
             </Switch>
         </div>
       </Router>

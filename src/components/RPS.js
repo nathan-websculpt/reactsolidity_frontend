@@ -23,7 +23,6 @@ const RPS = () => {
 
     //useEffect() tells React that we are doing something after render
     useEffect(() => {
-        {
           switch (playerOneChoice + playerTwoChoice) {
             case 'rockrock':
             case 'paperpaper':
@@ -40,7 +39,6 @@ const RPS = () => {
             case 'rockpaper':
               setGameOutcome('YOU LOSE!')
               break
-          }
         }
       }, [playerTwoChoice, playerOneChoice]) // Only re-runs this effect if values change
 

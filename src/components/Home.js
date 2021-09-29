@@ -48,6 +48,15 @@ const Home = () => {
                     </a>
                 </Col>
             </Row> 
+            <Row>
+                <Col className='text-center'>
+                    <a 
+                    href='https://medium.com/@websculpt'
+                    target='_blank'>
+                        View the Blog
+                    </a>
+                </Col>
+            </Row> 
         </Container>
     )
 }
