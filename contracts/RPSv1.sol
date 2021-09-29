@@ -9,6 +9,9 @@ import "../node_modules/@OpenZeppelin/contracts/security/ReentrancyGuard.sol";
 //front-end will generate a computer choice alongside the player's choice
 //choices will go to the playGame function in this contract
 //not usable on mainnet, as the front-end values can be manipulated prior to calling this contract
+//used on the following blog posts:
+//https://medium.com/@websculpt/rock-paper-scissors-in-solidity-part-1-9d7c5d8a316e
+//https://medium.com/@websculpt/rock-paper-scissors-in-solidity-part-2-web3-and-the-browser-79df179e8cd
 contract RPSv1 is ReentrancyGuard{
     mapping (address => uint) public playerBalances;
     

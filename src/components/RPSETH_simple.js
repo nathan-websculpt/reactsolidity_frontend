@@ -5,6 +5,8 @@ import { useWeb3React } from '@web3-react/core';
 import '../abi.js';
 
 //not usable on mainnet, as the front-end values can be manipulated prior to calling the smart contract
+//used in this blog post: 
+//https://medium.com/@websculpt/rock-paper-scissors-in-solidity-part-2-web3-and-the-browser-79df179e8cd
 export default function RPSETH_simple() {
 
     // active:      Is there a wallet connected?
