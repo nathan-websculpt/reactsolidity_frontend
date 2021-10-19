@@ -4,6 +4,7 @@ pragma solidity ^0.8.0;
 import "../node_modules/@OpenZeppelin/contracts/utils/math/SafeMath.sol";
 import "../node_modules/@OpenZeppelin/contracts/security/ReentrancyGuard.sol";
 
+//for use in this blog post: https://medium.com/@websculpt/rock-paper-scissors-in-solidity-part-3-commit-reveal-4d56a84cbe97
 contract RPSv2 is ReentrancyGuard {
     using SafeMath for uint;
 

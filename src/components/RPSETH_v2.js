@@ -5,7 +5,7 @@ import { useWeb3React } from '@web3-react/core';
 import '../abi.js';
 
 //used in this blog post: 
-//https://medium.com/@websculpt/rock-paper-scissors-in-solidity-part-2-web3-and-the-browser-79df179e8cd
+//https://medium.com/@websculpt/rock-paper-scissors-in-solidity-part-3-commit-reveal-4d56a84cbe97
 export default function RPSETH_v2() {
 
     // active:      Is there a wallet connected?
@@ -26,7 +26,7 @@ export default function RPSETH_v2() {
     const [contractBalance, setContractBalance] = useState('');
 
     //player values
-    const [playerOneOpponentAddress, setPlayerOneOpponentAddress] = useState('0x49...');
+    const [playerOneOpponentAddress, setPlayerOneOpponentAddress] = useState('0x496...');
     const [playerTwoOpponentAddress, setPlayerTwoOpponentAddress] = useState('');
     const [playerOneSalt, setPlayerOneSalt] = useState('');
     const [playerTwoSalt, setPlayerTwoSalt] = useState('');
@@ -49,7 +49,7 @@ export default function RPSETH_v2() {
     }, [library]);
     
     async function initContractInstance() {        
-        var ci = new library.eth.Contract( window.rpsv2_abi , '0x78...');
+        var ci = new library.eth.Contract( window.rpsv2_abi , '0xa5...');
         setContractInstance(ci);
         console.log("init contract instance...");
     }
