@@ -15,6 +15,7 @@ const Navigation = () => (
                 <Link to='/rock-paper-scissors' className='nav-link'>Rock, Paper, Scissors</Link>
                 <Link to='/metamask-example' className='nav-link'>MetaMask Login</Link>
                 {/* <Link to='/rps-ethereum-simple' className='nav-link'>PvC ETH RPS</Link>                 */}
+                {/* <Link to='/rps-ethereum-v2' className='nav-link'>RPS PvP</Link> */}
             </Nav>
         </Navbar.Collapse>
     </Container>
