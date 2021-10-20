@@ -129,15 +129,18 @@ contract RPSv2 is ReentrancyGuard {
     }
    
     function deleteGame(address playerOne) internal {
-        delete games[playerOne].playerOne;
-        delete games[playerOne].playerTwo;
-        delete games[playerOne].stake;
-        delete games[playerOne].playerOneChoice;
-        delete games[playerOne].playerTwoChoice;
-        delete games[playerOne].playerOneHash;
-        delete games[playerOne].playerTwoHash;
-        delete games[playerOne].status;
-        delete games[playerOne].outcome;
+        delete games[playerOne];
+
+        //the game disappears after being played, so if you want to leave data behind for testing, you can just delete certain pieces of data
+        // delete games[playerOne].playerOne;
+        // delete games[playerOne].playerTwo;
+        // delete games[playerOne].stake;
+        // delete games[playerOne].playerOneChoice;
+        // delete games[playerOne].playerTwoChoice;
+        // delete games[playerOne].playerOneHash;
+        // delete games[playerOne].playerTwoHash;
+        // delete games[playerOne].status;
+        // delete games[playerOne].outcome;
     }
 
     //deposit a player's funds
